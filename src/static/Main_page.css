@@ -1,0 +1,118 @@
+h1
+{
+ color :#000000;
+ font-size:"50";
+ backdrop-filter: blur(20px);
+ 
+}
+
+body{
+    margin: 0;
+}
+
+p{
+    padding: 0%;
+    text-align: left;
+    font-size: 20px;
+    margin: 0%;
+    backdrop-filter: blur(5px);
+   
+}
+.fake{
+    background:url(https://db4sgowjqfwig.cloudfront.net/images/931559/fightclub.jpg) no-repeat center;
+}
+h6
+{
+font-size: xx-large;
+}
+.header
+{
+    
+    padding: 1px;
+    text-align: center;
+    background:url(https://abrakadabra.fun/uploads/posts/2022-01/1643413757_17-abrakadabra-fun-p-oboi-na-telefon-dengi-estetika-dlya-podros-36.jpg);
+    color:#000000
+    
+}
+.navbar 
+{
+    overflow: hidden;
+background-color: rgb(146, 142, 81);
+}
+.navbar a
+{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover
+{
+    color: black;
+background-color: rgb(255, 255, 255);
+}
+.fakeimg
+{
+    background-color: #9385a0;
+    width: 100%;
+    padding: 20px;
+    background:  url(https://st.su/static/media/video7.e6895d46.png) no-repeat center;
+}
+
+.row{
+    display: flex;
+    padding: 20px;
+}
+
+.side{
+    background-color: #283618;
+    padding: 20px;
+    width: 50%;
+}
+
+.main{
+    flex: 70%;
+    background-color: aliceblue;
+    padding: 20px;
+    width: 50%;
+}
+* {
+   box-sizing: border-box;
+}
+.footer{
+     padding: 20px;
+     text-align: center;
+     background:#606c38;
+}
+
+@media screen  and (max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+    
+}
+
+@media screen  and (max-width:400px){
+    .navbar a
+    {
+       float: none;
+       width: 100%; 
+    }
+    
+}
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .nav-item {
+    margin-left: 10px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: black;
+  }
